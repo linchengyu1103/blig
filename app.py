@@ -4,7 +4,7 @@ from flask import Flask, Response
 
 # --- 設定 ---
 # 播放速度：每幀之間的延遲時間（秒）。
-FRAME_DELAY = 0.2
+FRAME_DELAY = 0.05
 # *** 這裡改成你檔案內的分隔符號 ***
 # 因為你的幀本身已經包含了清除畫面的控制碼，所以我們將它設為分隔符號。
 FRAME_DELIMITER = "---FRAME---" 
