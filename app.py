@@ -8,7 +8,7 @@ from flask import Flask, Response
 FRAME_DELAY = 0.03
 # *** 這裡改成你檔案內的分隔符號 ***
 # 因為你的幀本身已經包含了清除畫面的控制碼，所以我們將它設為分隔符號。
-FRAME_DELIMITER = "---FRAME---" 
+FRAME_DELIMITER = "---FRAME---"
 
 
 # --- 自動讀取動畫幀 ---
